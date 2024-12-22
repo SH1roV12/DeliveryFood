@@ -22,7 +22,10 @@ body{
     
 }
 
-
+a {
+    color: inherit;
+  text-decoration: none;
+}
 
 
 .container{
@@ -122,7 +125,7 @@ body{
 .ordernow{
     position: absolute;
     top: 38.5%;
-    right: 10px; /* Отступ справа */
+    right: 10px; 
     transform: translateY(-50%);
     background-color: #ff5a3d;
     color: white;
@@ -189,6 +192,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 .food {
     display: flex;
@@ -200,6 +204,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     margin-left: 142px;
+    
 }
 .card {
     background-color: #FAFAFA;
@@ -259,6 +264,7 @@ body{
     box-sizing: border-box;
     position: relative;
     margin-left: 32px;
+    
 }
 .text-content {
     font-size: 26px;
@@ -287,3 +293,355 @@ body{
     
 }
 
+
+.lorem{
+    max-width: 545px;
+    max-height: 186.5px;
+    margin-top: 39px;
+    margin-left: 37px;
+    margin-bottom: 51px;
+}
+
+.lorem p{
+    font-size: 26px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 34px;
+    
+}
+
+.food:nth-last-child(1){
+    margin-top: 32px;
+    margin-left: 12px;
+    margin-right: 148px;
+}
+
+.highlight-title {
+    font-size: 46px;
+    margin-bottom: 59px;
+    text-align: center;
+}
+
+.howtoorder {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1231px;
+    max-height: 408px;
+    margin-top: 195px;
+    
+}
+.steps {
+    gap:125px;
+    display: flex;
+    margin-top: 95px;
+    
+}
+.step{
+    display: flex;
+    background-color: #FAFAFA;
+    width: 214px;
+    height: 267px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.step img {
+    width: 95px;
+    height: 95px;
+    margin-bottom: 30px;
+}
+
+
+.step p {
+    font-size: 24px;
+    color: #191720;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+
+.numberstep {
+    color: #ff5331;
+    font-size: 44px;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    top: -33px;
+    z-index: -1;
+    
+}
+
+
+.feedback {
+    margin-top: 195px;
+    max-width: 787px;
+    height: 524;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.titlef h2 {
+    font-size: 44px;
+    color: #191720;
+    margin-bottom: 18px;
+    
+    font-weight: 800;
+}
+.titlef p {
+    
+    max-width: 532px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feedback-img {
+    margin-top: 52px;
+    margin-bottom: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 55px;
+}
+.description_of_feedback {
+    font-size: 24px;
+    font-weight: 700;
+    
+    margin-bottom: 40px;
+}
+
+.author p:first-child{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+.buttons_of_feedback {
+    max-width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.first {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.second {
+    display: flex;
+    height: 36px;
+    width: 36px;
+    background-color: #FF5331;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center ;
+}
+
+.prefooter {
+    margin-top: 167px;
+    width: 100%;
+    background-color: #FFEFEC;
+    height: 302px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.prefooter_content {
+    max-width: 1430px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.footer_title {
+    max-width: 675px;
+    height: 96px;
+    margin-right: 248px !important;
+}
+.footer_title h2 {
+    font-size: 46px !important;
+    font-weight: 700;
+}
+.footer_title p {
+    font-size: 16px;
+    margin-top: 12px !important;
+}
+
+
+.prefooter_input_form {
+    width: 470px ;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.email {
+    width: 100%;
+    height: 62px;
+    border-radius: 50px !important;
+    box-shadow:0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px 0 24px 26px !important;
+}
+
+.send {
+    position: absolute;
+    width: 85px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #FF5331;
+    font-size: 18px;
+    color: white;
+    transform: translateX(-107%);
+    top: 8.5%;
+    z-index: 1;
+}
+
+
+footer {
+    background-color: #000000;
+    height: 728px;
+}
+.footer_content{
+    padding: 96px 93px 102px 181px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.down_footer{
+    max-width: 480px !important;
+    max-height: 200px;
+    position: relative;
+}
+
+
+.footer_logo {
+    margin-left: 42px;
+}
+
+.download:nth-of-type(2){
+    margin-top: 140px;
+}
+.rigths {
+    position: absolute;
+    color: white;
+    margin-top: 230px;
+}
+
+
+.quicklinks{
+    height: 261px !important;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.links_footer {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    max-width: 830px;
+    height: 490px;
+    margin-left: 200px;
+    margin-top: 40px;
+    gap: 144px !important;
+}
+
+
+
+
+
+.quicklinks ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #B5B2B2;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.quicklinks li:first-child {
+    color: #FAFAFA;
+    font-size: 17.56px;
+}
+
+.knowus {
+    height: 218px !important;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.knowus ul   {
+    color: #B5B2B2;
+    font-size: 16px;
+    line-height: 37px;
+}
+
+.knowus li:first-child {
+    color: #FAFAFA;
+    font-size: 17.56px;
+}
+
+.news{
+    height: 251px !important;
+    text-decoration: none;
+    outline: none !important;
+}
+.news ul{
+    color: #B5B2B2;
+    font-size: 16px;
+    line-height: 37px;
+}
+.news li:first-child{
+    color: #FAFAFA;
+    font-size: 17.56px;
+}
+
+
+.contact{
+    height: 116px !important;
+    text-decoration: none;
+    outline: none !important;
+}
+
+.contact ul{
+    color: #B5B2B2;
+    font-size: 16px;
+    line-height: 37px;
+}
+.contact li:first-child{
+    color: #FAFAFA;
+    font-size: 17.56px;
+}
+
+.endfooter{
+    width: 404px;
+    font-size: 17.76px;
+    position: absolute;
+    color: #B5B2B2;
+    margin-left: 300px;
+    margin-top: 430px ;
+}
+
+.endfooter span{
+    margin-left: 55px;  
+}
